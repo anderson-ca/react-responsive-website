@@ -61,7 +61,13 @@ function Navbar() {
                   </Link>
                 ) : (
                   <Link to="/sign-up">
-                    <Button buttonStyle="btn--outline">SIGN UP</Button>
+                    <Button
+                      buttonSize="btn--wide"
+                      buttonStyle="btn--outline"
+                      onClick={closeMobileMenu}
+                    >
+                      SIGN UP🙋
+                    </Button>
                   </Link>
                 )}
               </li>
