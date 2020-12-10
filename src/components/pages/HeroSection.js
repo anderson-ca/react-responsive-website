@@ -15,13 +15,20 @@ const HeroSection = ({
   alt,
   imgStart,
 }) => {
+console.log("test", lightTextDesc);
+
   return (
     <>
       <div
         className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
       >
         <div className="container">
-          <div className="row home__hero-row">
+          <div
+            className="row home__hero-row"
+            style={{
+              flexDirection: imgStart === "start" ? "row-reverse" : "row",
+            }}
+          >
             <div className="col">
               <div className="home__hero-text-wrapper">
                 <div className="top-line">{topLine}</div>

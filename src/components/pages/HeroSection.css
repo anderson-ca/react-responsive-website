@@ -1,5 +1,6 @@
 .home__hero-section {
   padding: 160px 0;
+  display: flex;
 }
 
 .home__hero-row {
@@ -56,9 +57,10 @@
 }
 
 .home__hero-subtitle {
+  font-weight: bold;
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 24px;
 }
 
@@ -91,7 +93,7 @@ img {
   }
 
   .col {
-      max-width: 100%;
-      flex-basis: 100%;
+    max-width: 100%;
+    flex-basis: 100%;
   }
 }
